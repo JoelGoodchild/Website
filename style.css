@@ -6,5 +6,25 @@
 
 header {
 	height: 150px;
-	background: red;
+	background: green;
+}
+
+section {
+	float: left;
+	background: blue;
+	width: 650px;
+	height: 300px;
+}
+
+aside {
+	float: right;
+	width: 310px;
+	background: orange;
+	height: 300px;
+}
+
+footer {
+	clear: both;
+	background: purple;
+	height: 50px;
 }
