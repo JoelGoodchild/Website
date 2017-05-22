@@ -5,8 +5,34 @@
 }
 
 header {
-	height: 150px;
-	background: green;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 50px;
+}
+
+header img{
+	float: left;
+}
+
+header ul {
+	list-style: none;
+	float: right;
+}
+
+header ul li {
+	display: inline;
+	margin-left: 15px;
+}
+
+header a {
+	color: #777;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+header a:hover {
+	color: #222;
+	text-decoration: bold;
 }
 
 section {
