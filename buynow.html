@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<title>Games4Sale | Buy Now</title>
+	</head>
+	<body>
+		<script src="myScript.js"></script>
+		<div id="container">
+			<div id="wrapper">
+				<a href="website.html"><header><img src="images/logo.png" alt="Games For Sale Logo"></a>
+					<nav>
+						<ul>
+							<li><a href="website.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+				<section>
+					<h1>Buy Now</h1>
+					<p>
+						Please fill in your information below<br><br>
+					</p>
+					<div>
+					  <form action="/action_page.php" onsubmit="onSubmit(this);return false;">
+						<label for="game">Game</label>
+						<select id="game" name="game">
+						  <option value="overwatch">Overwatch</option>
+						  <option value="pokemonsun">Pokemon Sun</option>
+						  <option value="pokemonmoon">Pokemon Moon</option>
+						  <option value="grandtheftauto5">Grand Theft Auto 5</option>
+						  <option value="rocketleague">Rocket League</option>
+						  <option value="destiny2">Destiny 2 (PREORDER ONLY)</option>
+						  <option value="shadowofwar">Shadow Of War (PREORDER ONLY)</option>
+						</select><br>
+						
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your first name..."><br>
+
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+						<label for="padd">Postal Address</label>
+						<input type="text" id="padd" name="postaladdress" placeholder="Your postal address..."><br>
+						
+						<label for="citysub">Suburb/City</label>
+						<input type="text" id="citysub" name="cityorsuburb" placeholder="Your city/subrub..."><br>
+						
+						<label for="postcode">Postcode</label>
+						<input type="text" id="postcode" name="postcode" placeholder="Your postcode..."><br>
+						
+						<label for="state">State/Territory</label>
+						<select id="state" name="state">
+						  <option value="act">ACT</option>
+						  <option value="nsw">NSW</option>
+						  <option value="nt">NT</option>
+						  <option value="qld">QLD</option>
+						  <option value="sa">SA</option>
+						  <option value="tas">TAS</option>
+						  <option value="vic">VIC</option>
+						  <option value="wa">WA</option>
+						</select><br>
+						
+						<label for="cardnum">Credit Card Number</label>
+						<input type="text" id="cardnum" name="cardnum" placeholder="Your cradit card number..."><br>
+						
+						<label for="cardexp">Card Expiry</label>
+						<input type="text" id="cardexp" name="cardexp" placeholder="Your card expiry..."><br>
+						
+						<label for="ccv">CCV</label>
+						<input type="text" id="ccv" name="ccv" placeholder="Your CCV..."><br>
+					  
+						<input type="submit" value="Submit">
+					  </form>
+					</div>
+				</section>
+				<aside>
+					PREORDER NOW
+					<img src="images/screenshot-14.png" alt="Sidebar">
+					<a class= "title-links" href="#">Destiny 2</a>
+					<p>The award winning franchise is back! Bigger and better than ever.  It is your destiny guardian, are you ready to take up arms and fight for what is yours? </p>
+					<a class= "title-links" href="buynow.html">PREORDER NOW</a>
+					
+					<img src="images/logopre.png" alt="Sidebar">
+					<a class= "title-links" href="#">Shadow Of War</a>
+					<p>Shadow of Mordor's bigger brother, Shadow Of War will have you jumping off the walls with joy. With stakes higher than ever, you must face your worst fears to triumph.</p>
+					<a class= "title-links" href="buynow.html">PREORDER NOW</a>
+				</aside>
+				<footer>
+					<ul>
+						<li><a href="website.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<p>Designed by Joel Goodchild, 2017</p>
+					<div class="clear"></div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
