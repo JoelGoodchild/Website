@@ -1,4 +1,3 @@
-
 function onSubmit(form)
 {
 	var game = document.getElementById("game").value;

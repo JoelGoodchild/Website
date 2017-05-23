@@ -72,13 +72,12 @@ header ul li {
 }
 
 header a {
-	color: #777;
+	color: #888;
 	text-decoration: none;
 }
 
 header a:hover {
 	color: #222;
-	font-weight: 600;
 }
 
 section {
@@ -105,9 +104,11 @@ section {
 	border: 1px solid #efefef;
 	padding: 5px;
 	margin-right: 10px;
+	opacity: 0.5;
 }
 
 .website-post img:hover {
+	opacity: 1.0;
 	border: 1px solid #c1c1c1;
 }
 
@@ -131,7 +132,7 @@ section {
 
 aside {
 	float: right;
-	width: 310px;
+	width: 300px;
 	padding: 15px;
 	margin-top: 15px;
 	background-color: #efefef;
@@ -140,15 +141,20 @@ aside {
 	margin-bottom: 259px;
 }
 
+@-webkit-keyframes mymove {
+    50% {outline: 10px solid lightgreen;}
+}
+
 aside img {
 	margin-bottom: 10px;
 	margin-top: 15px;
-	border: 1px solid #efefef;
-	padding: 5px;
+	-webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+	opacity: 0.5;
 }
 
 aside img:hover {
-	border: 1px solid #c1c1c1;
+	opacity: 1.0;
 }
 
 footer {
@@ -178,7 +184,6 @@ footer a {
 
 footer a:hover {
 	color: #222;
-	font-weight: 600;
 }
 
 footer p {
@@ -193,7 +198,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -211,4 +216,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+input[type=text]:focus {
+    background-color: lightgrey;
 }
