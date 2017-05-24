@@ -12,4 +12,6 @@ function onSubmit(form)
 	var ccv = document.getElementById("ccv").value;
 	
 	alert(game + "\n" + fname + "\n" + lname + "\n" + padd + "\n" + citysub + "\n" + postcode + "\n" + state + "\n" + cardnum + "\n" + cardexp + "\n" + ccv);
+	
+	window.location.href="website.html";
 }

@@ -1,0 +1,30 @@
+[OPTIONS]
+Language=0x0409
+Default Font=Arial,8,0
+TITLE=WebsiteCHM
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=No
+Default Window=Main
+Compiled file=websiteCHM.chm
+Error Log file=websiteCHM.log
+Contents file=websiteCHM.hhc
+Index File=websiteCHM.hhk
+Default Topic=about.html
+[FILES]
+about.html
+support.html
+order.html
+help.png
+nexttopic.png
+prevtopic.png
+[WINDOWS]
+Main=,"websiteCHM.hhc","websiteCHM.hhk","about.html","about.html",,,,,0x061520,200,0x00304E,[50,50,850,450],0x307e,,,,,,,,0
+[ALIAS]
+about=about.html
+support=support.html
+order=order.html
+[MAP]
+#include websiteCHM.h
